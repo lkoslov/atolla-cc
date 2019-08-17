@@ -1,0 +1,33 @@
+.search-form {
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #05142d;
+}
+
+.zip-field,
+.search-button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  outline: none;
+}
+
+.zip-field {
+  border-radius: 5px;
+  border-width: 1px;
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: #5bcacc;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #05142d;
+}
+
+.search-button:hover {
+  background-color: #05142d;
+  color: white;
+  transition: background-color 2s;
+  cursor: pointer;
+}

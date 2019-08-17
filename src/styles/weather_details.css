@@ -1,0 +1,33 @@
+.weather-detail-container {
+  font-size: 30px;
+}
+
+.weather-detail-container {
+  padding-top: 100px;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/products.jpeg');
+}
+
+.clear,
+.clouds,
+.rain,
+.snow {
+  color: #05142d;
+}
+
+.clear {
+  background-image: url('../images/clear.jpg');
+}
+
+.clouds {
+  background-image: url('../images/clouds.jpg');
+}
+
+.rain {
+  background-image: url('../images/rain.jpg');
+}
+
+.snow {
+  background-image: url('../images/snow.jpg');
+}
